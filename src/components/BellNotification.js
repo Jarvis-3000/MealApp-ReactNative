@@ -6,7 +6,6 @@ const BellNotification = () => (
     icon="bell"
     color={"#fff"}
     size={20}
-    onPress={() => console.log('Pressed')}
   />
 );
 

@@ -16,9 +16,6 @@ const CategoriesNavigation = () => {
       <Stack.Screen name="MealsByCategory" component={MealsByCategory} />
       <Stack.Screen name="MealView" component={MealView} />
     </Stack.Navigator>
-    // <View>
-    //   <Text>CategoriesNavigation</Text>
-    // </View>
   );
 };
 

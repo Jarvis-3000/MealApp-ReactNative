@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import YoutubePlayer from "react-native-youtube-iframe";
 
 export default function YoutubeVideo({ link }) {
@@ -12,13 +12,9 @@ export default function YoutubeVideo({ link }) {
     }
   }, []);
 
-  const togglePlaying = useCallback(() => {
-    setPlaying((prev) => !prev);
-  }, []);
-
   return (
     <YoutubePlayer
-      height={300}
+      height={220}
       play={playing}
       videoId={youtubeLink}
       onChangeState={onStateChange}

@@ -10,7 +10,6 @@ import MealCard from "./MealCard";
 function MealsByCategory({ route, navigation }) {
   const dispatch = useDispatch();
   const { category } = route.params;
-  console.log("aaa", { route });
   const { fetchState, data } = useSelector(
     (state) => state.meal.mealsByCategory
   );

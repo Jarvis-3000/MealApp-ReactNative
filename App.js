@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "./src/redux/store";
 
-import MainNavigator from "./src/MainNavigator/MainNavigator";
+import MainNavigator from "./src/Navigators/MainNavigator";
 
 export default function App() {
   return (

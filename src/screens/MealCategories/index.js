@@ -8,7 +8,6 @@ import { fetchMealCategories } from "../../redux/Meal/actions";
 import CategoryCard from "./CategoryCard";
 
 function MealCategories({ navigation }) {
-  console.log("okk");
   const dispatch = useDispatch();
   const { fetchState, data } = useSelector(
     (state) => state.meal.mealCategories
